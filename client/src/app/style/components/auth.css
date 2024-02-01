@@ -1,0 +1,49 @@
+.bg {
+    background-image: url('/images/background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.bg-1 {
+    background-image: url('/images/background-image-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.signup-card {
+    width: 350px;
+    border-radius: 8px;
+    padding: 20px;
+    padding-bottom: 40px;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: #fff;
+}
+
+.signup-navigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.signup-agreement {
+    color: #959799;
+    font-size: 12px;
+}
+
+.signup-authority {
+    color: #fff;
+}

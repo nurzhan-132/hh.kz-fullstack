@@ -1,0 +1,29 @@
+.collapse {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 12px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.collapse img {
+    width: 16px;
+    height: 16px;
+}
+
+.collapse.active img {
+    transform: rotate(90deg);
+}
+
+.collapse-child {    
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 16px;
+}
+
+.collapse-child input {
+    width: 16px;
+    height: 16px;
+}

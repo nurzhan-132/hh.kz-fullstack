@@ -1,0 +1,16 @@
+.search-field {
+    width: 100%;
+}
+
+.search-vacancy-container {
+    display: flex;
+    gap: 36px;
+}
+
+.search-vacancy-left-bar {
+    width: 20%;
+}
+
+.search-vacancy-right-bar {
+    width: 80%;
+}

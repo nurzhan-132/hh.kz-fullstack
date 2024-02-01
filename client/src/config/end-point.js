@@ -1,0 +1,1 @@
+export const END_POINT = "http://157.245.146.95:3000"

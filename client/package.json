@@ -1,0 +1,29 @@
+{
+  "name": "hh.kz-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^40.0.0",
+    "@ckeditor/ckeditor5-react": "^6.1.0",
+    "@reduxjs/toolkit": "^1.9.6",
+    "axios": "^1.5.0",
+    "date-fns": "^2.30.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.5.2",
+    "jwt-decode": "^3.1.2",
+    "next": "^13.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3"
+  }
+}

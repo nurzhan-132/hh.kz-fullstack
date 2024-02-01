@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.row:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.col {
+    width: 33.3333%;
+    user-select: none;
+}
+
+.row-header {
+    background-color: #fff;
+}
+
+.row-header .col {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.row-header .col img {
+    width: 16px;
+    height: 16px;
+}
+
+.sort-asc img {
+    transform: rotate(-90deg);
+}
+
+.sort-desc img {
+    transform: rotate(90deg);
+}

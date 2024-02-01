@@ -1,0 +1,22 @@
+.main-page {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+    color: #fff;
+}
+.main-page-search {
+    display: flex;
+    gap: 16px;
+}
+.main-page-search button {
+    width: 200px;
+    font-size: 16px;
+}
+.main-page-link {
+    color: #fff;
+    text-decoration: revert-layer;
+}

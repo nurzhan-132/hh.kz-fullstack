@@ -1,0 +1,61 @@
+.resume-page h3 {
+    margin-top: 32px;
+}
+
+.emp-type {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.emp-type span {
+    font-weight: 400;
+}
+
+.experience {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-date {
+    width: 150px;
+}
+
+.experience-date-duration {
+    color: #959799;
+}
+
+.experience-info h4 {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.skills {
+    display: flex;
+    gap: 12px;
+}
+
+.skills-tag {
+    background-color: #edeff0;
+    display: inline-block;
+    padding: 4px 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.education-faculty {
+    margin: 0;
+}
+
+.langs-tag {
+    width: max-content;
+    background-color: #edeff0;
+    display: block;
+    padding: 4px 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.delete-button {
+    cursor: pointer;
+}

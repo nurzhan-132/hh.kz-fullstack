@@ -1,0 +1,16 @@
+.educations > a {
+    color: #1785E5;
+    cursor: pointer;
+}
+
+.education {
+    position: relative;
+    width: fit-content;
+}
+
+.education span {
+    position: absolute;
+    top: 20px;
+    right: -28px;
+    cursor: pointer;
+} 
